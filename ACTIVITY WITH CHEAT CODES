@@ -1,0 +1,63 @@
+SETUP
+git clone <repo>
+
+DAILY USE
+git status
+git add .
+git commit -m "message"
+git pull
+git push
+
+BRANCHING
+git checkout -b feature-name
+git merge feature-name
+
+EMERGENCY
+git stash
+git stash pop
+git reset --soft HEAD~1
+
+VIEW
+git log
+git branch
+=============================================
+# Hackathon Git Workshop
+
+## Rules
+- No direct push to main
+- One feature per branch
+- Pull before push
+===================================================
+REPO TEMPLATE 
+-Repo Name: hackathon-git-workshop
+
+Folder Structure
+hackathon-git-workshop/
+│
+├── README.md
+├── frontend/
+│   └── index.html
+├── backend/
+│   └── app.py
+└── notes.txt
+========================================================
+PART 4: MINI HACKATHON SIMULATION
+TASKS FOR STUDENTS
+
+Clone repo
+
+Create branch feature-ui
+
+Modify index.html
+
+Commit
+
+Push branch
+
+Another student edits same file
+
+Create merge conflict
+
+Resolve conflict
+
+Merge to main
